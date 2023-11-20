@@ -141,11 +141,11 @@ s3cEZKH5yytiVnJ3h+eI3qhhzf9q1vNwEi6+q+WGdd+ACRCZ7JD6
 
 ## Run from terminal:
 
-docker build -t chickenapp.azurecr.io/chicken:latest .
+docker build -t cnnclassification.azurecr.io/chicken:latest .
 
-docker login chickenapp.azurecr.io
+docker login cnnclassification.azurecr.io
 
-docker push chickenapp.azurecr.io/chicken:latest
+docker push cnnclassification.azurecr.io/chicken:latest
 
 
 ## Deployment Steps:
